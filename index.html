@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Saregama </title>
+        <link rel="stylesheet" href="style.css">
+        </head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.jpg" alt="Spotify"> Saregama Marathi</li>
+            <li>Home</li>
+            <li>My Music</li>
+            <li>Playlist</li>
+            <li>Go Offline</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songList">
+            <h1>भक्तीगीते</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">अभिर गुलाल उधळीत रंग </span>
+                    <span class="songlistplay"><span class="timestamp">05:03 <i id="0" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">जैसे ज्याचे कर्म तैसे फळ देतो रे ईश्वर</span>
+                    <span class="songlistplay"><span class="timestamp">03:41 <i id="1" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">विठ्ठल नाम्याची शाळा भरली</span>
+                    <span class="songlistplay"><span class="timestamp">05:18 <i id="2" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">नाम तुझे घेता देवा होई समाधान</span>
+                    <span class="songlistplay"><span class="timestamp">03:27 <i id="3" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">विठू माऊली तू माऊली जगाची</span>
+                    <span class="songlistplay"><span class="timestamp">05:04 <i id="4" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">दर्शन दे रे दे रे भगवंता</span>
+                    <span class="songlistplay"><span class="timestamp">05:06 <i id="5" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">कानडा राजा पंढरीचा</span>
+                    <span class="songlistplay"><span class="timestamp">03:58 <i id="6" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">जगण्याचे देवा</span>
+                    <span class="songlistplay"><span class="timestamp">02:23 <i id="7" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">चंद्रभागेच्या तिरी</span>
+                    <span class="songlistplay"><span class="timestamp">03:38 <i id="8" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">माझे माहेर पंढरी</span>
+                    <span class="songlistplay"><span class="timestamp">07:20 <i id="9" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+            </div>
+            
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fas fa-3x fa-step-backward" id="previous"></i>
+            <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-3x fa-step-forward" id="next"></i> 
+        </div>
+        <div class="time">
+           <span id="currentTime">0:00</span> / <span id="duration">0:00</span>
+        </div>
+        <div class="credit">
+            © 2024, Aaradhya Pathak, saregama
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" width="42px" alt="" id="gif"> <span id="masterSongName">अभिर गुलाल उधळीत रंग</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
